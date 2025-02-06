@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/QA/UniroPaintsERP">
+        <classes>
+            <class name="com.uniroPaints.ERP.tests.auth.LoginTest">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+            <class name="com.uniroPaints.ERP.tests.production.NewRecipeTest">
+                <methods>
+                    <include name="testNewRecipePageLoad" />
+                    <include name="testRecipeProductDropdown"/>
+                    <include name="testVersionFieldReadOnly"/>
+
+                    <include name="testQuantityFieldValidInput"/>
+                    <include name="testQuantityFieldMinBoundary"/>
+                    <include name="testQuantityFieldMaxBoundary"/>
+                    <include name="testQuantityFieldBelowMin"/>
+                    <include name="testQuantityFieldAboveMax"/>
+                    <include name="testQuantityFieldNegativeValue"/>
+                    <include name="testQuantityFieldNonNumericInput"/>
+                    <include name="testQuantityFieldSpecialCharacters"/>
+                    <include name="testQuantityFieldLeadingTrailingSpaces"/>
+                    <include name="testQuantityFieldDecimalPrecision"/>
+
+                    <include name="testDensityFieldValidInput"/>
+                    <include name="testDensityFieldMinBoundary"/>
+                    <include name="testDensityFieldMaxBoundary"/>
+                    <include name="testDensityFieldBelowMin"/>
+                    <include name="testDensityFieldAboveMax"/>
+                    <include name="testDensityFieldNegativeValue"/>
+                    <include name="testDensityFieldNonNumericInput"/>
+                    <include name="testDensityFieldSpecialCharacters"/>
+                    <include name="testDensityFieldLeadingTrailingSpaces"/>
+                    <include name="testDensityFieldDecimalPrecision"/>
+
+                    <include name="testVolumeVarianceFieldValidInput"/>
+                    <include name="testVolumeVarianceFieldMinBoundary"/>
+                    <include name="testVolumeVarianceFieldMaxBoundary"/>
+                    <include name="testVolumeVarianceFieldBelowMin"/>
+                    <include name="testVolumeVarianceFieldAboveMax"/>
+                    <include name="testVolumeVarianceFieldNonNumericInput"/>
+                    <include name="testVolumeVarianceFieldSpecialCharacters"/>
+                    <include name="testVolumeVarianceFieldLeadingTrailingSpaces"/>
+                    <include name="testVolumeVarianceFieldDecimalPrecision"/>
+
+                    <include name="testGoodIssueVarianceFieldValidInput"/>
+                    <include name="testGoodIssueVarianceFieldMinBoundary"/>
+                    <include name="testGoodIssueVarianceFieldMaxBoundary"/>
+                    <include name="testGoodIssueVarianceFieldBelowMin"/>
+                    <include name="testGoodIssueVarianceFieldAboveMax"/>
+                    <include name="testGoodIssueVarianceFieldNonNumericInput"/>
+                    <include name="testGoodIssueVarianceFieldSpecialCharacters"/>
+                    <include name="testGoodIssueVarianceFieldLeadingTrailingSpaces"/>
+                    <include name="testGoodIssueVarianceFieldDecimalPrecision"/>
+
+                    <include name="testMainStepNumberDropdown"/>
+
+                    <include name="testMainStepDescFieldValidInput"/>
+                    <include name="testMainStepDescFieldMinBoundary"/>
+                    <include name="testMainStepDescFieldMaxBoundary"/>
+                    <include name="testMainStepDescFieldBelowMin"/>
+                    <include name="testMainStepDescFieldAboveMax"/>
+                    <include name="testMainStepDescFieldAllCharactersAllowed"/>
+                    <include name="testMainStepDescFieldAllowsMultipleSpaces"/>
+
+                    <include name="testSubStepNumberDropdown"/>
+                    <include name="testRecipeStepClearButton"/>
+                    <include name="testSubStepAvailabilityDependsOnMainStep"/>
+
+                    <include name="testRawMaterialDropdown"/>
+
+                    <include name="testRawMaterialQuantityFieldValidInput"/>
+                    <include name="testRawMaterialQuantityFieldMinBoundary"/>
+                    <include name="testRawMaterialQuantityFieldMaxBoundary"/>
+                    <include name="testRawMaterialQuantityFieldBelowMin"/>
+                    <include name="testRawMaterialQuantityFieldAboveMax"/>
+                    <include name="testRawMaterialQuantityFieldNegativeValue"/>
+                    <include name="testRawMaterialQuantityFieldNonNumericInput"/>
+                    <include name="testRawMaterialQuantityFieldSpecialCharacters"/>
+                    <include name="testRawMaterialQuantityFieldLeadingTrailingSpaces"/>
+                    <include name="testRawMaterialQuantityFieldDecimalPrecision"/>
+
+                    <include name="testSubStepDescFieldValidInput"/>
+                    <include name="testSubStepDescFieldMinBoundary"/>
+                    <include name="testSubStepDescFieldMaxBoundary"/>
+                    <include name="testSubStepDescFieldBelowMin"/>
+                    <include name="testSubStepDescFieldAboveMax"/>
+                    <include name="testSubStepDescFieldAllCharactersAllowed"/>
+                   
+
+
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
